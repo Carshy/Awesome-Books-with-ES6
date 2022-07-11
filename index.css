@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.navbar-section {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 142px;
+  padding-right: 142px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  border: 2px solid #000;
+  margin: 0 18px;
+}
+
+.nav-items::after {
+  content: "";
+  border-right: 2px solid black;
+  margin: 10px;
+}
+
+.home {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-group {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+}
+
+.books {
+  margin-left: 39%;
+  margin-bottom: 1%;
+  margin-top: 7%;
+}
+
+#book-collection {
+  display: none;
+  border: 2px solid #000;
+  margin: auto;
+  background: #fff;
+  width: 675px;
+  height: fit-content;
+}
+
+.display-collection {
+  display: flex;
+  flex-direction: row;
+  background-color: silver;
+  margin: 12px;
+}
+
+.display-collection button {
+  margin-left: 42%;
+}
+
+.book-info {
+  width: 25%;
+}
+
+#book-info-author {
+  margin-left: -50px;
+}
+
+span {
+  margin: 8px;
+}
+
+.forms-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.forms-section h2 {
+  margin-left: 68px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-input {
+  height: 20px;
+  margin-bottom: 12px;
+}
+
+.addbtn {
+  border: 2px solid;
+  margin-left: 90.4%;
+}
+
+#title {
+  height: 20px;
+  border: 1px solid;
+  width: 50vh;
+}
+
+#author {
+  height: 20px;
+  border: 1px solid;
+  width: 50vh;
+}
+
+.delete {
+  width: 17%;
+  float: right;
+  border: 2px solid #000;
+  box-shadow: 0 4px 5px;
+}
+
+#contact-display {
+  display: none;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.contact-section h2 {
+  padding-bottom: 2%;
+}
+
+.contact-text {
+  padding-bottom: 1%;
+}
+
+.footer-section {
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 24px;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0 18px;
+  margin-top: 15%;
+}
+
+.footer-section p {
+  color: #000;
+}

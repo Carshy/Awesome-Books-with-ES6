@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- **************The Header Section************** -->
+<header>
+    <nav class="navbar-section">
+        <a href="#" class="home">Awesome Books</a>
+        <ul class="nav-group">
+            <li class="nav-items" id="list-link"><a href="#">List</a></li>
+            <li class="nav-items" id="add-new-link"><a href="#">Add New</a></li>
+            <li class="nav-items" id="contact-link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    
+    <h1 class="books">All awesome books</h1>
+
+    <!-- **************The Dynamic Section for Displaying Book List************** -->
+    
+    <div id="book-collection"> 
+        <!-- Added content from JS -->
+    </div>
+
+    <!-- **************The Form Section************** -->
+    <div class="forms-section" id="add-books">
+        <h2>Add a new book</h2>
+        <form id="form">
+            <div class="text-input">
+                <input type="text" id="title" name="title" placeholder="Title" required>
+            </div>
+
+            <div class="text-input">
+                <input type="text" id="author" name="author" placeholder="Author" required>
+            </div>
+            <button type="submit" class="addbtn">Add</button>
+        </form>
+    </div>
+
+    <!-- **************The Contact Section************** -->
+
+    <div id="contact-display">
+        <div class="contact-section">
+            <h2>Contact Information</h2>
+
+            <div class="contact-text">
+                <p>Do you have any questions or you just want to say "Hello"?</p>
+                <p>You can reach out to us!</p>
+            </div>
+
+            <ul>
+                <li>Our e-mail: Reggie&Collins@gmail.com</li>
+                <li>Our phone numbers are: +235 667 233 4471</li>
+                <li>Our address: Car Str 173A Johannesburg SA</li>
+            </ul>
+        </div>
+    </div>
+
+</main>
+
+<!-- **************The Footer Section************** -->
+<footer class="footer-section">
+    <p>Copyright</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
