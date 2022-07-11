@@ -62,6 +62,7 @@ body {
 .display-collection {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: silver;
   margin: 12px;
 }
