@@ -2,7 +2,7 @@
 
 import Book from './modules/book.js';
 import Storage from './modules/storage.js';
-import UI from './modules/ui.js'
+import UI from './modules/ui.js';
 import { DateTime } from './modules/luxon.js';
 
 // define the current local time
@@ -23,17 +23,16 @@ document.querySelector('#form').addEventListener('submit', () => {
 });
 
 // Event: Deletes a Book
-document.querySelector('#book-collection').addEventListener('click', (e) => {
-
+document.querySelector('#book-col').addEventListener('click', (e) => {
 // Remove book from UI
   UI.deleteBook(e.target);
 
 // Remove book from Store
-Storage.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
-});
+  Storage.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
+  });
 
 // *****************Variables for targetting "bookList, "addaBook", and "contactDetails"***************
-const bookCollection = document.querySelector('#book-collection');
+const bookCollection = document.querySelector('#book-col');
 const addaBook = document.querySelector('#add-books');
 const contactDetails = document.querySelector('#contact-display');
 const listLink = document.querySelector('#list-link');

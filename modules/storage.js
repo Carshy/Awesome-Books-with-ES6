@@ -20,7 +20,7 @@ class Storage {
     window.location.reload();
   }
 
-// Event remove a Book
+  // Event remove a Book
   static removeBook(title) {
     const books = Storage.getBooks();
 

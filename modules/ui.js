@@ -1,4 +1,4 @@
-import Storage from './storage.js'
+import Storage from './storage.js';
 // UI Class: Displays listed Books
 class UI {
   static displayBooks() {
@@ -7,7 +7,7 @@ class UI {
   }
 
   static addBookToList(book) {
-    const list = document.querySelector('#book-collection');
+    const list = document.querySelector('#book-col');
     const addedbook = document.createElement('div');
     addedbook.innerHTML = `
         <div class="display-collection">
