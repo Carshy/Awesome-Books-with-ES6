@@ -44,24 +44,36 @@ body {
   color: #000;
 }
 
+/* Displaying Date and Time */
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#date-time {
+  padding-right: 4%;
+  margin-bottom: 10px;
+}
+
 .books {
   margin-left: 39%;
   margin-bottom: 1%;
   margin-top: 7%;
 }
 
-#book-collection {
+#book-col {
   display: none;
   border: 2px solid #000;
   margin: auto;
   background: #fff;
   width: 675px;
-  height: fit-content;
 }
 
 .display-collection {
   display: flex;
   flex-direction: row;
+  align-items: center;
   background-color: silver;
   margin: 12px;
 }
