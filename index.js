@@ -27,18 +27,18 @@ document.querySelector('#book-col').addEventListener('click', (e) => {
 // Remove book from UI
   UI.deleteBook(e.target);
 
-// Remove book from Store
+  // Remove book from Store
   Storage.removeBook(e.target.previousElementSibling.previousElementSibling.textContent);
-  });
+});
 
-// *****************Variables for targetting "bookList, "addaBook", and "contactDetails"***************
+// *********Variables for targetting "bookList, "addaBook", ***************
 const bookCollection = document.querySelector('#book-col');
 const addaBook = document.querySelector('#add-books');
 const contactDetails = document.querySelector('#contact-display');
 const listLink = document.querySelector('#list-link');
 const titleDismiss = document.querySelector('.books');
 
-// *****************Displaying the Book List page when clicking "List"***************
+// ***********Displaying the Book List page when clicking "List"***************
 listLink.addEventListener('click', () => {
   bookCollection.style.display = 'block';
   addaBook.style.display = 'none';
@@ -69,7 +69,7 @@ contactLink.addEventListener('click', () => {
   titleDismiss.style.display = 'none';
 });
 
-// *****************Displaying the Book List page when clicking "Add" Button***************
+// *******Displaying the Book List page when clicking "Add" Button***************
 const addButtonLink = document.querySelector('.addbtn');
 addButtonLink.addEventListener('click', () => {
   bookCollection.style.display = 'block';
