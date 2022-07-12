@@ -3,6 +3,11 @@
 import Book from './modules/book.js';
 import Storage from './modules/storage.js';
 import UI from './modules/ui.js'
+import { DateTime } from './modules/luxon.js';
+
+// define the current local time
+const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+document.getElementById('date-time').innerHTML = currentDate;
 
 // Store Class: Handles local storage of books
 

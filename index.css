@@ -44,6 +44,18 @@ body {
   color: #000;
 }
 
+/* Displaying Date and Time */
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#date-time {
+  padding-right: 4%;
+  margin-bottom: 10px;
+}
+
 .books {
   margin-left: 39%;
   margin-bottom: 1%;
@@ -56,7 +68,6 @@ body {
   margin: auto;
   background: #fff;
   width: 675px;
-  height: fit-content;
 }
 
 .display-collection {
